@@ -15,6 +15,7 @@
 		8EB501FB1B17000E005A08C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB501FA1B17000E005A08C2 /* Images.xcassets */; };
 		8EB501FE1B17000E005A08C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB501FC1B17000E005A08C2 /* LaunchScreen.xib */; };
 		8EB5020A1B17000E005A08C2 /* gitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB502091B17000E005A08C2 /* gitHubTests.m */; };
+		8EB502151B170240005A08C2 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB502141B170240005A08C2 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		8EB502031B17000E005A08C2 /* gitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB502081B17000E005A08C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB502091B17000E005A08C2 /* gitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitHubTests.m; sourceTree = "<group>"; };
+		8EB502131B170240005A08C2 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		8EB502141B170240005A08C2 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				8EB501EF1B17000E005A08C2 /* AppDelegate.m */,
 				8EB501F41B17000E005A08C2 /* ViewController.h */,
 				8EB501F51B17000E005A08C2 /* ViewController.m */,
+				8EB502131B170240005A08C2 /* OneViewController.h */,
+				8EB502141B170240005A08C2 /* OneViewController.m */,
 				8EB501F71B17000E005A08C2 /* Main.storyboard */,
 				8EB501FA1B17000E005A08C2 /* Images.xcassets */,
 				8EB501FC1B17000E005A08C2 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB501F01B17000E005A08C2 /* AppDelegate.m in Sources */,
+				8EB502151B170240005A08C2 /* OneViewController.m in Sources */,
 				8EB501F31B17000E005A08C2 /* gitHub.xcdatamodeld in Sources */,
 				8EB501F61B17000E005A08C2 /* ViewController.m in Sources */,
 				8EB501ED1B17000E005A08C2 /* main.m in Sources */,
